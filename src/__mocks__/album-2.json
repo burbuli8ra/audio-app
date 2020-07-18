@@ -1,0 +1,33 @@
+{
+  "artist": "The Pure",
+  "cover": "https://www.instagram.com/p/B0EUBPBoziQ/media",
+  "id": 1,
+  "title": "Live in Athens",
+  "tracks": [
+    {
+      "title": "Muffin",
+      "url": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "title": "Chocolate Cake",
+      "url": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "title": "Caramels",
+      "url": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "title": "Macaroon",
+      "url": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+      "type": "audio/mpeg"
+    },
+    {
+      "title": "Donut",
+      "url": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+      "type": "audio/mpeg"
+    }
+  ]
+}
