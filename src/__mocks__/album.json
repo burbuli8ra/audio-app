@@ -1,0 +1,73 @@
+{
+  "1" : {
+    "artist": "Bob Villain",
+    "cover": "https://www.instagram.com/p/BFmPMNpS7ig/media",
+    "id": 1,
+    "title": "The Villain Way",
+    "tracks": [
+      {
+        "title": "Destroy and Blame Doggo",
+        "url": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+        "type": "audio/mpeg"
+      },
+      {
+        "title": "Rub Face on Everything",
+        "url": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+        "type": "audio/mpeg"
+      },
+      {
+        "title": "Licks Your Face",
+        "url": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+        "type": "audio/mpeg"
+      },
+      {
+        "title": "Scratch at Fleas",
+        "url": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+        "type": "audio/mpeg"
+      },
+      {
+        "title": "Meow Until Belly Rubs",
+        "url": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+        "type": "audio/mpeg"
+      },
+      {
+        "title": "Smelly Cat",
+        "url": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+        "type": "audio/mpeg"
+      }
+    ]
+  },
+  "2": {
+    "artist": "The Pure",
+    "cover": "https://www.instagram.com/p/B0EUBPBoziQ/media",
+    "id": 1,
+    "title": "Live in Athens",
+    "tracks": [
+      {
+        "title": "Muffin",
+        "url": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+        "type": "audio/mpeg"
+      },
+      {
+        "title": "Chocolate Cake",
+        "url": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+        "type": "audio/mpeg"
+      },
+      {
+        "title": "Caramels",
+        "url": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+        "type": "audio/mpeg"
+      },
+      {
+        "title": "Macaroon",
+        "url": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+        "type": "audio/mpeg"
+      },
+      {
+        "title": "Donut",
+        "url": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+        "type": "audio/mpeg"
+      }
+    ]
+  }
+}
