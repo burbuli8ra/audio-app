@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 
 const App = styled.div`
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
   text-align: center;
 `;
 App.displayName = 'App';
@@ -10,8 +13,9 @@ App.displayName = 'App';
 const Header = styled.div`
   background-color: #ffffff;
   box-shadow: 0 0 9px 0 rgba(140, 140, 158, 0.25);
-  grid-area: header;
   padding: 20px;
+  position: sticky;
+  top: 0;
   text-align: left;
 `;
 Header.displayName = 'Header';
@@ -25,10 +29,10 @@ const HeaderLink = styled(Link)`
 HeaderLink.displayName = 'HeaderLink';
 
 const Main = styled.div`
-  --header-height: 68px;
   box-sizing: border-box;
-  height: calc(100% - var(--header-height));
-  padding-top: 40px;
+  flex-grow: 1;
+  padding: 40px 0;
+  overflow: auto;
 `;
 Main.displayName = 'Main';
 

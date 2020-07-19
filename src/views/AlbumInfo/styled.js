@@ -48,6 +48,7 @@ const Details = styled.div`
 Details.displayName = 'Details';
 
 const Track = styled.div`
+  cursor: pointer;
   display: flex;
   text-align: left;
 `;

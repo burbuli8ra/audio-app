@@ -1,26 +1,39 @@
 import React, { useEffect, useState } from 'react';
+import { useAppContext } from '../../provider';
 import { Loader } from '../../components';
 import Styled from './styled';
 import albumInfoMock from '../../__mocks__/album.json';
 
-const AlbumInfo = ({ location }) => {
-  // Get the album ID from location state
-  // and use as a fallback the id inside the url
-  const { state = {} } = location;
-  const { albumId = window.location.pathname.substr(-1) } = state;
-  
+const AlbumInfo = ({ match: { params : { id } } }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [albumInfo, setAlbumInfo] = useState([]);
+
+  const [, dispatch] = useAppContext();
+
+  const handleAlbumClick = index => {
+    dispatch({
+      type: 'SET_ACTIVE_INDEX',
+      payload: index
+    });
+    dispatch({
+      type: 'SET_ACTIVE_LIST',
+      payload: albumInfo.tracks
+    });
+    dispatch({
+      type: 'SET_ACTIVE_ARTIST',
+      payload: albumInfo.artist
+    });
+  };
 
   // @todo replace with actual API call
   useEffect(() => {
     const timer = setTimeout(() => {
-      setAlbumInfo(albumInfoMock[albumId]);
+      setAlbumInfo(albumInfoMock[id]);
       setIsLoading(false);
     }, 2000);
 
     return () => clearTimeout(timer);
-  }, [albumId]);
+  }, [id]);
 
   return (
     isLoading
@@ -29,8 +42,11 @@ const AlbumInfo = ({ location }) => {
         <>
           <Styled.Heading>{albumInfo.title}</Styled.Heading>
           <Styled.List>
-          {albumInfo.tracks.map(track => (
-            <Styled.Track key={track.title}>
+          {albumInfo.tracks.map((track, index) => (
+            <Styled.Track
+              key={track.title}
+              onClick={() => handleAlbumClick(index)}
+            >
               <Styled.Cover>
                 <img
                   src={albumInfo.cover}
