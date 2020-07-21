@@ -4,7 +4,8 @@ import { Loader } from '../../components';
 import Styled from './styled';
 import albumInfoMock from '../../__mocks__/album.json';
 
-const AlbumInfo = ({ match: { params : { id } } }) => {
+const AlbumInfo = ({ match }) => {
+  const { id } = match.params;
   const [isLoading, setIsLoading] = useState(true);
   const [albumInfo, setAlbumInfo] = useState([]);
 

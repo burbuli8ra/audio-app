@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlbumsList view should match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-fzqBZW dUqHN"
+      >
+        Recent Releases
+      </div>
+      <div
+        class="sc-fzokOt dLEZtS"
+      >
+        <a
+          class="sc-fznZeY domBZc"
+          href="album/1"
+        >
+          <div
+            class="sc-fzpans hnvDCT"
+          >
+            <img
+              alt="Cover of \\"The Villain Way\\" by Bob Villain"
+              src="https://www.instagram.com/p/BFmPMNpS7ig/media"
+            />
+          </div>
+          <div
+            class="sc-fznKkj eZUTMj"
+          >
+            <div
+              class="sc-fzplWN cEdPvy"
+            >
+              The Villain Way
+            </div>
+            <div
+              class="sc-fznyAO elWmgt"
+            >
+              by 
+              <em>
+                Bob Villain
+              </em>
+            </div>
+          </div>
+        </a>
+        <a
+          class="sc-fznZeY domBZc"
+          href="album/2"
+        >
+          <div
+            class="sc-fzpans hnvDCT"
+          >
+            <img
+              alt="Cover of \\"Live in Athens\\" by The Pure"
+              src="https://www.instagram.com/p/B0EUBPBoziQ/media"
+            />
+          </div>
+          <div
+            class="sc-fznKkj eZUTMj"
+          >
+            <div
+              class="sc-fzplWN cEdPvy"
+            >
+              Live in Athens
+            </div>
+            <div
+              class="sc-fznyAO elWmgt"
+            >
+              by 
+              <em>
+                The Pure
+              </em>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-fzqBZW dUqHN"
+    >
+      Recent Releases
+    </div>
+    <div
+      class="sc-fzokOt dLEZtS"
+    >
+      <a
+        class="sc-fznZeY domBZc"
+        href="album/1"
+      >
+        <div
+          class="sc-fzpans hnvDCT"
+        >
+          <img
+            alt="Cover of \\"The Villain Way\\" by Bob Villain"
+            src="https://www.instagram.com/p/BFmPMNpS7ig/media"
+          />
+        </div>
+        <div
+          class="sc-fznKkj eZUTMj"
+        >
+          <div
+            class="sc-fzplWN cEdPvy"
+          >
+            The Villain Way
+          </div>
+          <div
+            class="sc-fznyAO elWmgt"
+          >
+            by 
+            <em>
+              Bob Villain
+            </em>
+          </div>
+        </div>
+      </a>
+      <a
+        class="sc-fznZeY domBZc"
+        href="album/2"
+      >
+        <div
+          class="sc-fzpans hnvDCT"
+        >
+          <img
+            alt="Cover of \\"Live in Athens\\" by The Pure"
+            src="https://www.instagram.com/p/B0EUBPBoziQ/media"
+          />
+        </div>
+        <div
+          class="sc-fznKkj eZUTMj"
+        >
+          <div
+            class="sc-fzplWN cEdPvy"
+          >
+            Live in Athens
+          </div>
+          <div
+            class="sc-fznyAO elWmgt"
+          >
+            by 
+            <em>
+              The Pure
+            </em>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

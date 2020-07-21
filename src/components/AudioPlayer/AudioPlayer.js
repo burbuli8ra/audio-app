@@ -138,40 +138,50 @@ const AudioPlayer = () => {
 
   return (
     <Styled.AudioPlayer>
-      <audio ref={audioRef}>
+      <audio
+        data-testid="audio"
+        ref={audioRef}
+      >
         <source src={activeTrack.url} type={activeTrack.type} />
         Your browser does not support the audio element.
       </audio>
       <Styled.Info>
         {activeTrack.url ? (
           <>
-            <Styled.Title>{activeTrack.title || 'Unknown song'}</Styled.Title>
-            <Styled.Artist>{activeArtist || 'Unknown artist'}</Styled.Artist>
+            <Styled.Title data-testid="audio-title">
+              {activeTrack.title || 'Unknown song'}
+            </Styled.Title>
+            <Styled.Artist data-testid="audio-artist">
+              {activeArtist || 'Unknown artist'}
+            </Styled.Artist>
           </>
         ) : (
-          <Styled.Notification>
+          <Styled.Notification data-testid="audio-notification">
             You have not selected any song yet!
           </Styled.Notification>
         )}
       </Styled.Info>
       <Styled.Controls>
         <Styled.ControlButton
+          data-testid="audio-control-prev"
           isDisabled={isPrevDisabled}
           onClick={handlePrevClick}
         >
           <SkipPreviousRounded />
         </Styled.ControlButton>
         <Styled.ControlButton
+          data-testid="audio-control-play-pause"
           isDisabled={isEmptySource}
           isMain
           onClick={handlePlayPause}
         >
           {isPlaying
-            ? <PauseCircleOutlineRounded />
-            : <PlayCircleOutlineRounded />
+            ? <PauseCircleOutlineRounded data-testid="audio-pause-icon" />
+            : <PlayCircleOutlineRounded data-testid="audio-play-icon" />
           }
         </Styled.ControlButton>
         <Styled.ControlButton
+          data-testid="audio-control-next"
           isDisabled={isNextDisabled}
           onClick={handleNextClick}
         >

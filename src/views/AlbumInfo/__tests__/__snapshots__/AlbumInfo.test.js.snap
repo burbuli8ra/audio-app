@@ -1,0 +1,430 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlbumInfo view should match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-fzpans bTxBFn"
+      >
+        The Villain Way
+      </div>
+      <div
+        class="sc-fzqBZW bxtAMv"
+      >
+        <div
+          class="sc-fzokOt fEGKlu"
+        >
+          <div
+            class="sc-fzplWN fmRWiL"
+          >
+            <img
+              alt="Cover of \\"The Villain Way\\" by Bob Villain"
+              src="https://www.instagram.com/p/BFmPMNpS7ig/media"
+            />
+          </div>
+          <div
+            class="sc-fznZeY iKDQWd"
+          >
+            <div
+              class="sc-fznyAO dNAXsz"
+            >
+              Destroy and Blame Doggo
+            </div>
+            <div
+              class="sc-fznKkj ivYtlQ"
+            >
+              by 
+              <em>
+                Bob Villain
+              </em>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-fzokOt fEGKlu"
+        >
+          <div
+            class="sc-fzplWN fmRWiL"
+          >
+            <img
+              alt="Cover of \\"The Villain Way\\" by Bob Villain"
+              src="https://www.instagram.com/p/BFmPMNpS7ig/media"
+            />
+          </div>
+          <div
+            class="sc-fznZeY iKDQWd"
+          >
+            <div
+              class="sc-fznyAO dNAXsz"
+            >
+              Rub Face on Everything
+            </div>
+            <div
+              class="sc-fznKkj ivYtlQ"
+            >
+              by 
+              <em>
+                Bob Villain
+              </em>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-fzokOt fEGKlu"
+        >
+          <div
+            class="sc-fzplWN fmRWiL"
+          >
+            <img
+              alt="Cover of \\"The Villain Way\\" by Bob Villain"
+              src="https://www.instagram.com/p/BFmPMNpS7ig/media"
+            />
+          </div>
+          <div
+            class="sc-fznZeY iKDQWd"
+          >
+            <div
+              class="sc-fznyAO dNAXsz"
+            >
+              Licks Your Face
+            </div>
+            <div
+              class="sc-fznKkj ivYtlQ"
+            >
+              by 
+              <em>
+                Bob Villain
+              </em>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-fzokOt fEGKlu"
+        >
+          <div
+            class="sc-fzplWN fmRWiL"
+          >
+            <img
+              alt="Cover of \\"The Villain Way\\" by Bob Villain"
+              src="https://www.instagram.com/p/BFmPMNpS7ig/media"
+            />
+          </div>
+          <div
+            class="sc-fznZeY iKDQWd"
+          >
+            <div
+              class="sc-fznyAO dNAXsz"
+            >
+              Scratch at Fleas
+            </div>
+            <div
+              class="sc-fznKkj ivYtlQ"
+            >
+              by 
+              <em>
+                Bob Villain
+              </em>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-fzokOt fEGKlu"
+        >
+          <div
+            class="sc-fzplWN fmRWiL"
+          >
+            <img
+              alt="Cover of \\"The Villain Way\\" by Bob Villain"
+              src="https://www.instagram.com/p/BFmPMNpS7ig/media"
+            />
+          </div>
+          <div
+            class="sc-fznZeY iKDQWd"
+          >
+            <div
+              class="sc-fznyAO dNAXsz"
+            >
+              Meow Until Belly Rubs
+            </div>
+            <div
+              class="sc-fznKkj ivYtlQ"
+            >
+              by 
+              <em>
+                Bob Villain
+              </em>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-fzokOt fEGKlu"
+        >
+          <div
+            class="sc-fzplWN fmRWiL"
+          >
+            <img
+              alt="Cover of \\"The Villain Way\\" by Bob Villain"
+              src="https://www.instagram.com/p/BFmPMNpS7ig/media"
+            />
+          </div>
+          <div
+            class="sc-fznZeY iKDQWd"
+          >
+            <div
+              class="sc-fznyAO dNAXsz"
+            >
+              Smelly Cat
+            </div>
+            <div
+              class="sc-fznKkj ivYtlQ"
+            >
+              by 
+              <em>
+                Bob Villain
+              </em>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-fzpans bTxBFn"
+    >
+      The Villain Way
+    </div>
+    <div
+      class="sc-fzqBZW bxtAMv"
+    >
+      <div
+        class="sc-fzokOt fEGKlu"
+      >
+        <div
+          class="sc-fzplWN fmRWiL"
+        >
+          <img
+            alt="Cover of \\"The Villain Way\\" by Bob Villain"
+            src="https://www.instagram.com/p/BFmPMNpS7ig/media"
+          />
+        </div>
+        <div
+          class="sc-fznZeY iKDQWd"
+        >
+          <div
+            class="sc-fznyAO dNAXsz"
+          >
+            Destroy and Blame Doggo
+          </div>
+          <div
+            class="sc-fznKkj ivYtlQ"
+          >
+            by 
+            <em>
+              Bob Villain
+            </em>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-fzokOt fEGKlu"
+      >
+        <div
+          class="sc-fzplWN fmRWiL"
+        >
+          <img
+            alt="Cover of \\"The Villain Way\\" by Bob Villain"
+            src="https://www.instagram.com/p/BFmPMNpS7ig/media"
+          />
+        </div>
+        <div
+          class="sc-fznZeY iKDQWd"
+        >
+          <div
+            class="sc-fznyAO dNAXsz"
+          >
+            Rub Face on Everything
+          </div>
+          <div
+            class="sc-fznKkj ivYtlQ"
+          >
+            by 
+            <em>
+              Bob Villain
+            </em>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-fzokOt fEGKlu"
+      >
+        <div
+          class="sc-fzplWN fmRWiL"
+        >
+          <img
+            alt="Cover of \\"The Villain Way\\" by Bob Villain"
+            src="https://www.instagram.com/p/BFmPMNpS7ig/media"
+          />
+        </div>
+        <div
+          class="sc-fznZeY iKDQWd"
+        >
+          <div
+            class="sc-fznyAO dNAXsz"
+          >
+            Licks Your Face
+          </div>
+          <div
+            class="sc-fznKkj ivYtlQ"
+          >
+            by 
+            <em>
+              Bob Villain
+            </em>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-fzokOt fEGKlu"
+      >
+        <div
+          class="sc-fzplWN fmRWiL"
+        >
+          <img
+            alt="Cover of \\"The Villain Way\\" by Bob Villain"
+            src="https://www.instagram.com/p/BFmPMNpS7ig/media"
+          />
+        </div>
+        <div
+          class="sc-fznZeY iKDQWd"
+        >
+          <div
+            class="sc-fznyAO dNAXsz"
+          >
+            Scratch at Fleas
+          </div>
+          <div
+            class="sc-fznKkj ivYtlQ"
+          >
+            by 
+            <em>
+              Bob Villain
+            </em>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-fzokOt fEGKlu"
+      >
+        <div
+          class="sc-fzplWN fmRWiL"
+        >
+          <img
+            alt="Cover of \\"The Villain Way\\" by Bob Villain"
+            src="https://www.instagram.com/p/BFmPMNpS7ig/media"
+          />
+        </div>
+        <div
+          class="sc-fznZeY iKDQWd"
+        >
+          <div
+            class="sc-fznyAO dNAXsz"
+          >
+            Meow Until Belly Rubs
+          </div>
+          <div
+            class="sc-fznKkj ivYtlQ"
+          >
+            by 
+            <em>
+              Bob Villain
+            </em>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-fzokOt fEGKlu"
+      >
+        <div
+          class="sc-fzplWN fmRWiL"
+        >
+          <img
+            alt="Cover of \\"The Villain Way\\" by Bob Villain"
+            src="https://www.instagram.com/p/BFmPMNpS7ig/media"
+          />
+        </div>
+        <div
+          class="sc-fznZeY iKDQWd"
+        >
+          <div
+            class="sc-fznyAO dNAXsz"
+          >
+            Smelly Cat
+          </div>
+          <div
+            class="sc-fznKkj ivYtlQ"
+          >
+            by 
+            <em>
+              Bob Villain
+            </em>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
